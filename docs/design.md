@@ -22,6 +22,14 @@ Newest decisions first.
 
 ## Decisions during the build
 
+- 2026-11-22 · **Checked inside the real Standard Notes web app** (app.standardnotes.com, offline, no account,
+  headless Chromium): installed as a custom plugin, a file from `scripts/import-file.mjs` imported under
+  Preferences › Backups › Import backup ("successfully imported"), and the note opened straight in Money
+  Month (no Super step) with its preview line in the note list. The web app itself can't install a
+  GitHub-hosted plugin: it fetches the manifest with credentials and GitHub answers
+  `Access-Control-Allow-Origin: *`; the test served it with the origin echoed, and Beesho installs from the
+  phone or desktop app. (Headless snap Chromium can't read files in /tmp: hand `setInputFiles` a buffer.)
+
 - 2026-11-22 · **Charts are hand-written, recharts isn't used.** The spec allowed it: the forecast is a step
   line drawn at the pane's real width (no `preserveAspectRatio` stretching, the bug behind Goal Tracker's
   chart rewrites), with tap and arrow-key reading. The whole app is 90 KB gzipped, well inside Standard Notes'

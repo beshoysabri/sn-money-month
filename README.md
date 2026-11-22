@@ -9,14 +9,15 @@ changes a number. Amounts can be hidden with one tap, and the editor makes no ne
 
 ## Install
 
-In Standard Notes: **Preferences › Plugins › Install Custom Plugin**, then paste
+In the Standard Notes phone or desktop app: **Preferences › Plugins › Install Custom Plugin**, then paste
 
 ```
 https://beshoysabri.github.io/sn-money-month/ext.json
 ```
 
-The web app can't fetch from github.io; there, use
-`https://raw.githubusercontent.com/beshoysabri/sn-money-month/main/public/ext.json`.
+Install it from the phone or desktop app; it then syncs to the web app. The web app can't install it
+itself: it fetches plugin manifests with credentials, and GitHub's servers answer with a wildcard
+`Access-Control-Allow-Origin`, which browsers refuse for such requests.
 
 ## Getting a report in
 
