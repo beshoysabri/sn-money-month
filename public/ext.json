@@ -1,0 +1,13 @@
+{
+  "identifier": "com.beshoysabri.sn-money-month",
+  "name": "Money Month",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "note_type": "markdown",
+  "file_type": "md",
+  "version": "0.1.0",
+  "description": "Your monthly finance report as a calm, phone-first visual report: the month's verdict first, then where the money went, budgets, the weeks ahead, net worth and financial freedom.",
+  "url": "https://beshoysabri.github.io/sn-money-month/index.html?v=0.1.0",
+  "latest_url": "https://beshoysabri.github.io/sn-money-month/ext.json",
+  "marketing_url": "https://github.com/beshoysabri/sn-money-month"
+}

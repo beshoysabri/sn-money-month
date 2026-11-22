@@ -1,0 +1,11 @@
+{
+  "identifier": "com.beshoysabri.sn-money-month.dev",
+  "name": "Money Month (Dev)",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "note_type": "markdown",
+  "file_type": "md",
+  "version": "0.1.0",
+  "description": "Money Month — development version",
+  "url": "http://localhost:5173/index.html?v=0.1.0"
+}
